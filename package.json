@@ -1,0 +1,21 @@
+{
+  "name": "node-spop",
+  "version": "1.0.0",
+  "description": "Node wrapper for https://github.com/Schnouki/spop",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/noodny/node-spop.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/noodny/node-spop/issues"
+  },
+  "homepage": "https://github.com/noodny/node-spop#readme",
+  "dependencies": {
+  }
+}
