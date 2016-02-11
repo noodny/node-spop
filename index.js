@@ -8,7 +8,7 @@ function log(message) {
     }
 }
 
-client.on('close', function() {
+client.on('socketClose', function() {
     log('lost connection to the server');
     connected = false;
 });
