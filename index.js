@@ -14,9 +14,6 @@ client.on('close', function() {
 });
 
 function connect(params) {
-    if(params.debug) {
-        debug = true;
-    }
     return new Promise(function(resolve, reject) {
         if(connected) {
             log('connection is active, proceeding...');
@@ -45,6 +42,10 @@ var spop = {
      * @return {Promise}
      */
     setup: function(settings) {
+        if(settings.debug) {
+            debug = true;
+        }
+
         this.settings = settings;
 
         return connect(settings);
