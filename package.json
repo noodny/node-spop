@@ -1,6 +1,6 @@
 {
   "name": "node-spop",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Node wrapper for https://github.com/Schnouki/spop",
   "main": "index.js",
   "scripts": {
