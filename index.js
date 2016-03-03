@@ -166,6 +166,14 @@ var spop = {
     },
 
     /**
+     * @description Clear the contents of the queue
+     * @returns {Promise}
+     */
+    qclear: function() {
+        return this.exec('qclear');
+    },
+
+    /**
      * @description Stop playback
      * @returns {Promise}
      */
