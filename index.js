@@ -96,7 +96,7 @@ var spop = {
      * @returns {Promise}
      */
     play: function() {
-        return this.exec('toggle');
+        return this.exec('play');
     },
 
     /**
@@ -104,6 +104,14 @@ var spop = {
      * @returns {Promise}
      */
     pause: function() {
+        return this.exec('toggle');
+    },
+
+    /**
+     * @description Toggle pause mode
+     * @returns {Promise}
+     */
+    toggle: function() {
         return this.exec('toggle');
     },
 
